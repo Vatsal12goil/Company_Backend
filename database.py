@@ -7,7 +7,7 @@ from dotenv import load_dotenv
 load_dotenv()
 
 # Force override Render dashboard environment so it explicitly connects to Neon
-DATABASE_URL = "postgresql://neondb_owner:npg_YIHTbpW4Fk2g@ep-old-boat-anq6obfl.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require"
+DATABASE_URL = "postgresql://neondb_owner:npg_YIHTbpW4Fk2g@ep-old-boat-anq6obfl-pooler.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require&channel_binding=require"
 
 # Use StaticPool and check_same_thread=False for SQLite multithreading support in dev
 engine = create_engine(
