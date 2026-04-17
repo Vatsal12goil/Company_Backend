@@ -6,7 +6,8 @@ from dotenv import load_dotenv
 
 load_dotenv()
 
-DATABASE_URL = os.getenv("DATABASE_URL", "sqlite:///./crm.db")
+# Force override Render dashboard environment so it explicitly connects to Neon
+DATABASE_URL = "postgresql://neondb_owner:npg_YIHTbpW4Fk2g@ep-old-boat-anq6obfl.c-6.us-east-1.aws.neon.tech/neondb?sslmode=require"
 
 # Use StaticPool and check_same_thread=False for SQLite multithreading support in dev
 engine = create_engine(
