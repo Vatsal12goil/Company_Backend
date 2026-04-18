@@ -3,9 +3,7 @@
 An intelligent CRM dashboard built for Life Science Field Representatives to log interactions with Healthcare Professionals (HCPs) using a premium Web UI and a LangGraph-powered conversational agent.
 
 ## Core Features
-1.  **Dual UI Setup**: A beautiful split-screen interface displaying both a classical structured form and an advanced Conversational Chat AI side-by-side.<img width="899" height="1599" alt="WhatsApp Image 2025-12-08 at 11 39 29" src="https://github.com/user-attachments/assets/85b2c253-9c8d-4158-b72a-a1cc46a63147" />
-<img width="996" height="1280" alt="Me" src="https://github.com/user-attachments/assets/dfbe811f-cebf-4307-afeb-455f25b5c967" />
-
+1.  **Dual UI Setup**: A beautiful split-screen interface displaying both a classical structured form and an advanced Conversational Chat AI side-by-side
 2.  **LangGraph AI Agent**: The backbone of the interaction. The agent has been equipped with 5 tools:
     *   `log_interaction`: Formally records the context into the DB.
     *   `edit_interaction`: Modifies an already logged event.
