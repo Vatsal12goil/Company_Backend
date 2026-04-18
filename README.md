@@ -64,9 +64,9 @@ When using the interface, try typing these prompts into the AI to invoke the Lan
 - State Management: **Redux**
 
 
-Deployment Status
-1.) Backend: https://company-backend-1-916i.onrender.com
-2.) Front-End: https://aicrmproject-jc2dnkt9k-vatsals-projects-68d115a9.vercel.app/
+**Deployment Status**
+* 1.) Backend: https://company-backend-1-916i.onrender.com
+* 2.) Front-End: https://aicrmproject-jc2dnkt9k-vatsals-projects-68d115a9.vercel.app/
 
 
 
